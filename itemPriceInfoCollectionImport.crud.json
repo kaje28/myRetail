@@ -1,0 +1,11 @@
+{ "itemID": 13860428, "currentPrice": { "price": 19.98, "formattedPrice": "$19.98", "currencyCode": "USD"}, "salePrice": { "price": 14.99, "formattedPrice": "$14.99", "currencyCode": "USD"}, "isOfferValid": "Y" }
+{ "itemID": 50608360, "currentPrice": { "price": 99.99, "formattedPrice": "$99.99", "currencyCode": "USD"}, "salePrice": { "price": 79.95, "formattedPrice": "$79.95", "currencyCode": "USD"}, "isOfferValid": "Y" }
+{ "itemID": 52018933, "currentPrice": { "price": 329.99, "formattedPrice": "$329.99", "currencyCode": "USD"}, "salePrice": { "price": 329.99, "formattedPrice": "$329.99", "currencyCode": "USD"}, "isOfferValid": "N" }
+{ "itemID": 13074981, "currentPrice": { "price": 3.99, "formattedPrice": "$3.99", "currencyCode": "USD"}, "salePrice": { "price": 3.99, "formattedPrice": "$3.99", "currencyCode": "USD"}, "isOfferValid": "N" }
+{ "itemID": 75559119, "currentPrice": { "price": 14.99, "formattedPrice": "$14.99", "currencyCode": "USD"}, "salePrice": { "price": 14.99, "formattedPrice": "$14.99", "currencyCode": "USD"}, "isOfferValid": "N" }
+{ "itemID": 51591640, "currentPrice": { "price": 3.79, "formattedPrice": "$3.79", "currencyCode": "USD"}, "salePrice": { "price": 3.79, "formattedPrice": "$3.79", "currencyCode": "USD"}, "isOfferValid": "N" }
+{ "itemID": 54080958, "currentPrice": { "price": 39.99, "formattedPrice": "$39.99", "currencyCode": "USD"}, "salePrice": { "price": 39.99, "formattedPrice": "$39.99", "currencyCode": "USD"}, "isOfferValid": "N" }
+{ "itemID": 53871914, "currentPrice": { "price": 899.99, "formattedPrice": "$899.99", "currencyCode": "USD"}, "salePrice": { "price": 599.99, "formattedPrice": "$599.99", "currencyCode": "USD"}, "isOfferValid": "Y" }
+{ "itemID": 51310140, "currentPrice": { "price": 21.49, "formattedPrice": "$21.49", "currencyCode": "USD"}, "salePrice": { "price": 21.49, "formattedPrice": "$21.49", "currencyCode": "USD"}, "isOfferValid": "N" }
+{ "itemID": 54154670, "currentPrice": { "price": 21.49, "formattedPrice": "$21.49", "currencyCode": "USD"}, "salePrice": { "price": 21.49, "formattedPrice": "$21.49", "currencyCode": "USD"}, "isOfferValid": "N" }
+{ "itemID": 53405013, "currentPrice": { "price": 10.49, "formattedPrice": "$10.49", "currencyCode": "USD"}, "salePrice": { "price": 10.49, "formattedPrice": "$10.49", "currencyCode": "USD"}, "isOfferValid": "N" }
