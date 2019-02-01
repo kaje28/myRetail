@@ -15,7 +15,7 @@
  -  Python 3.7.2 (default, Jan 13 2019, 12:51:54)
 
  
- ##  Installations:
+ ##  Installations and Setup:
 
   ####  Install MongoDB
       $ brew install mongodb
@@ -49,5 +49,5 @@
       $ mongoimport --db myRetail --collection itemPriceInfo --drop --file ~/myRetail/itemPriceInfoCollectionImport.crud.json
       
       
-  #### Run web server from my laptop (flask)
+  #### Run web server locally (flask)
       $ python3 -m flask run
