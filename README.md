@@ -1,27 +1,48 @@
 # myRetail Case Study
 
-# Author:  Kelly Erskine
-# Start Date:  Jan 30, 2019
+**Author:**  Kelly Erskine
 
-# Assumptions:
- -  Mongodb is installed locally, datafile to import data is provided in github: kaje28/myRetail/itemPriceInfo.txt
+**Start Date:**  Jan 30, 2019
+
+## Assumptions:
+ -  Mongodb is installed locally 
+              datafile to import data is provided in GitHub: kaje28/myRetail/itemPriceInfoCollectionImport.crud.json
  -  Homebrew is installed
- 
-# Software used:
+
+
+## Software used:
  -  MongoDB (installed locally on my Mac)
  -  Python 3.7.2 (default, Jan 13 2019, 12:51:54)
 
  
- #  Installations:
+ ##  Installations:
 
-  #  Install MongoDB
-  $ brew install mongodb
+  ####  Install MongoDB
+      $ brew install mongodb
+      
+  ####  Install python 3.7.2
+      $ brew install python3
  
-  #  Install python 3.7.2
-  $ brew install python3
- 
-  # Python libraries installed
-  $ pip3 install pymongo
+  #### Python libraries installed
+      $ pip3 install pymongo
+      $ pip3 install flask
+      $ pip3 install requests
+
+
+  ####  Load datafile into MongoDB
+  #####  Start database
+      $ mongod
+      
+ ##### In another terminal create collection and run data import
+ #####  Switch database from default "test" to "myRetail"
+     >  use myRetail
+ ##### Create collection
+     >  db.createCollection('itemPriceInfo')
+  ###### *Download file from GitHub: itemPriceInfoCollectionImport.crud.json*
   
-  # Run simple web server from my laptop
-  $ python3 -m http.server
+   ###### *modify file location in command below if different than listed*
+      $ mongoimport --db myRetail --collection itemPriceInfo --drop --file ~/myRetail/itemPriceInfoCollectionImport.crud.json
+      
+      
+  #### Run web server from my laptop (flask)
+      $ python3 -m flask run
