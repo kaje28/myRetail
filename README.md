@@ -34,10 +34,15 @@
       $ mongod
       
  ##### In another terminal create collection and run data import
+  #####  Start MongoDB shell
+     $ mongo
  #####  Switch database from default "test" to "myRetail"
      >  use myRetail
  ##### Create collection
      >  db.createCollection('itemPriceInfo')
+ #####  You can exit MongoDB shell at this point
+     >  quit()
+     
   ###### *Download file from GitHub: itemPriceInfoCollectionImport.crud.json*
   
    ###### *modify file location in command below if different than listed*
