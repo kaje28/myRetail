@@ -60,8 +60,7 @@ Returns product ID, product name and product price in the following json format:
      
   ###### *Download file from GitHub: itemPriceInfoCollectionImport.crud.json*
   
-   ###### *modify file location in command below if different than listed*
-      $ mongoimport --db myRetail --collection itemPriceInfo --drop --file ~/myRetail/itemPriceInfoCollectionImport.crud.json
+      $ mongoimport --db myRetail --collection itemPriceInfo --drop --file itemPriceInfoCollectionImport.crud.json
       
       
   #### Run web server locally (flask)
