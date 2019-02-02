@@ -4,6 +4,21 @@
 
 **Start Date:**  Jan 30, 2019
 
+## API Details
+
+### GET
+
+/products/{int:itemID}  - Get product details, requires matching item ID
+
+Returns product ID, product name and product price in the following json format:
+
+    {
+    "ProductID": 51591640,
+    "ProductName": "Cheetos Paws Cheese Flavored Snacks - 7.5oz",
+    "ProductRetailPrice": "$3.79"
+    }
+
+
 ## Assumptions:
  -  Mongodb is installed locally 
               datafile to import data is provided in GitHub: kaje28/myRetail/itemPriceInfoCollectionImport.crud.json
