@@ -78,4 +78,4 @@ Returns product ID, product name and product price in the following json format:
      $ pytest myRetail_tests.py -v
 
 ####  Test run output
-![Test Output][images/myRetailTestScreenShot.png?raw=true "pytest output"]
+![Test Output](images/myRetailTestScreenShot.png?raw=true "pytest output")
