@@ -73,5 +73,6 @@ Returns product ID, product name and product price in the following json format:
  2.  Runs the app for a valid Product ID
  3.  Runs the app for an invalid Product ID
  
+ ###### *Be sure to download the pytest.ini file and the test_data folder with the itemPriceInfo.json file
  #### Run the test script.
      $ pytest myRetail_tests.py -v
