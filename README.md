@@ -76,3 +76,6 @@ Returns product ID, product name and product price in the following json format:
  ###### *Be sure to download the pytest.ini file and the test_data folder with the itemPriceInfo.json file
  #### Run the test script.
      $ pytest myRetail_tests.py -v
+
+####  Test run output
+![Test Output][images/myRetailTestScreenShot.png?raw=true "pytest output"]
