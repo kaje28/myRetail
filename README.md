@@ -42,6 +42,7 @@ Returns product ID, product name and product price in the following json format:
       $ pip3 install pymongo
       $ pip3 install flask
       $ pip3 install requests
+      $ pip3 install pytest
 
 
   ####  Load datafile into MongoDB
@@ -65,3 +66,12 @@ Returns product ID, product name and product price in the following json format:
       
   #### Run web server locally (flask)
       $ python3 -m flask run
+      
+ ###  Testing
+ ####  Run test script.  Tests the following:
+ 1.  The itemPriceInfo collection exists in the db
+ 2.  Runs the app for a valid Product ID
+ 3.  Runs the app for an invalid Product ID
+ 
+ #### Run the test script.
+     $ pytest myRetail_tests.py -v
